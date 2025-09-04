@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.board-instruction{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 180px;
+    left: 280px;
+}
+.board{
+    text-align: center;
+}
+.board1{
+    width: 500px;
+    font-size: 40px;
+}
+.board2{
+    font-size: 70px;
+}
+.board-txt{
+    width: 500px;
+    text-align: center;
+}
+.board-msg{
+    width: 500px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+    background-color: white;
+    margin-top: 10px;
+}
+.board-box{
+    width: 200px;
+    height: 26opx;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 90px;
+    background-color: white;
+}
+.board-box-txt{
+    width: 190px;
+    font-size: 16px;
+    font-weight: 900;
+}
